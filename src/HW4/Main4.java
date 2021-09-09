@@ -13,7 +13,7 @@ public class Main4 {
         );
 
         Set<String> unique = new HashSet<String>(words);
-        System.out.println("Задание 1");
+        System.out.println("Задание 1:");
         System.out.println("Первоначальный массив");
         System.out.println(words.toString());
         System.out.println("Уникальные слова");
@@ -26,7 +26,7 @@ public class Main4 {
         // Задание 2
         Phonebook phonebook = new Phonebook();
         System.out.println("");
-        System.out.println("задание 2");
+        System.out.println("задание 2:");
         System.out.println("Наполняем справочник");
         phonebook.add("Ищенко", "9036664455");
         phonebook.add("Разин", "9998887744");
